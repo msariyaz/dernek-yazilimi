@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hizmetlerimiz | Örnek Vakıf</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header id="main-header" class="scrolled">
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <div class="logo-icon"><i class="fas fa-shield-heart"></i></div>
+                    <div class="logo-text">
+                        <span class="logo-title">ÖRNEK</span>
+                        <span class="logo-subtitle">DERNEK</span>
+                    </div>
+                </a>
+
+                <ul class="nav-links">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Anasayfa</a></li>
+                    <li class="nav-item"><a href="hakkimizda.html" class="nav-link">Hakkımızda</a></li>
+                    <li class="nav-item">
+                        <a href="hizmetler.html" class="nav-link active" style="color: var(--accent);">Hizmetler <i class="fas fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+                        <div class="dropdown">
+                            <a href="hizmet-detay.html" class="dropdown-link">A Hizmeti</a>
+                            <a href="hizmet-detay.html" class="dropdown-link">B Hizmeti</a>
+                            <a href="hizmet-detay.html" class="dropdown-link">C Hizmeti</a>
+                            <a href="hizmet-detay.html" class="dropdown-link">D Hizmeti</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="iletisim.html" class="nav-link">İletişim</a></li>
+                </ul>
+
+                <div class="mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header Section -->
+    <section class="page-header-section">
+        <div class="container page-header-content">
+            <h1>Hizmetlerimiz</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Anasayfa</a>
+                <span>/</span>
+                <span>Hizmetler</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid Detailed -->
+    <section class="section">
+        <div class="container">
+            <div class="services-grid-wrapper">
+                
+                <!-- Service Detail 1 -->
+                <div class="service-detail-item">
+                    <div class="service-img">
+                        <div class="img-placeholder" data-label="Eğitim Desteği" style="height: 400px;"></div>
+                    </div>
+                    <div class="service-text">
+                        <h2 style="font-size: 2.2rem; margin-bottom: 20px;">Eğitim Desteği ve Burslar</h2>
+                        <p>Gençlerin eğitim hayatlarına katkıda bulunmak amacıyla, başarı odaklı veya ihtiyaç bazlı burs programları yürütüyoruz. Sadece maddi destek değil, aynı zamanda mentorluk sistemiyle de yanlarındayız.</p>
+                        <ul style="margin: 20px 0; color: var(--text-light);">
+                            <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--accent); margin-right: 10px;"></i> Başarı Bursu Programı</li>
+                            <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--accent); margin-right: 10px;"></i> Kırtasiye ve Kitap Yardımları</li>
+                            <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--accent); margin-right: 10px;"></i> Mesleki Eğitim Atölyeleri</li>
+                        </ul>
+                        <a href="hizmet-detay.html" class="btn btn-primary">Detayları İncele</a>
+                    </div>
+                </div>
+
+                <!-- Service Detail 2 -->
+                <div class="service-detail-item">
+                    <div class="service-text" style="order: 2;">
+                        <h2 style="font-size: 2.2rem; margin-bottom: 20px;">Sağlık Yardımı ve Danışmanlık</h2>
+                        <p>İmkanları kısıtlı olan vatandaşlarımızın sağlık hizmetlerine erişimini kolaylaştırıyoruz. Tedavi süreçlerinde lojistik ve danışmanlık hizmeti sunarak, zor günlerinde yanlarında oluyoruz.</p>
+                        <ul style="margin: 20px 0; color: var(--text-light);">
+                            <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--accent); margin-right: 10px;"></i> İlaç ve Tıbbi Cihaz Temini</li>
+                            <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--accent); margin-right: 10px;"></i> Evde Bakım Destekleri</li>
+                            <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--accent); margin-right: 10px;"></i> Psikolojik Danışmanlık</li>
+                        </ul>
+                        <a href="hizmet-detay.html" class="btn btn-primary">Detayları İncele</a>
+                    </div>
+                    <div class="service-img" style="order: 1;">
+                        <div class="img-placeholder" data-label="Sağlık Yardımı" style="height: 400px;"></div>
+                    </div>
+                </div>
+
+                <!-- Service Detail 3 -->
+                <div class="service-detail-item">
+                    <div class="service-img">
+                        <div class="img-placeholder" data-label="placeholder 1024x750" style="height: 400px;"></div>
+                    </div>
+                    <div class="service-text">
+                        <h2 style="font-size: 2.2rem; margin-bottom: 20px;">Gıda ve Temel İhtiyaç Bankası</h2>
+                        <p>Düzenli olarak gerçekleştirdiğimiz gıda kolisi dağıtımları ve sıcak yemek servisleriyle, açlık ve yoksullukla mücadele ediyoruz. İhtiyaç sahiplerini yerinde tespit ederek yardımları ulaştırıyoruz.</p>
+                        <ul style="margin: 20px 0; color: var(--text-light);">
+                            <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--accent); margin-right: 10px;"></i> Aylık Gıda Kolisi Dağıtımı</li>
+                            <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--accent); margin-right: 10px;"></i> Bayram Yardımları</li>
+                            <li style="margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--accent); margin-right: 10px;"></i> Aşevi Hizmetleri</li>
+                        </ul>
+                        <a href="iletisim.html" class="btn btn-primary">Bilgi Al</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <a href="index.html" class="logo" style="color: white">
+                        <div class="logo-icon"><i class="fas fa-shield-heart"></i></div>
+                        <div class="logo-text">
+                            <span class="logo-title">ÖRNEK</span>
+                            <span class="logo-subtitle">DERNEK</span>
+                        </div>
+                    </a>
+                    <p class="footer-desc">Toplumsal dayanışma için buradayız.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Hızlı Menü</h4>
+                    <ul>
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <li><a href="hizmetler.html">Hizmetlerimiz</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Hizmetler</h4>
+                    <ul>
+                        <li><a href="hizmet-detay.html">A Hizmeti</a></li>
+                        <li><a href="hizmet-detay.html">B Hizmeti</a></li>
+                        <li><a href="hizmet-detay.html">C Hizmeti</a></li>
+                        <li><a href="hizmet-detay.html">D Hizmeti</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>İletişim</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt" style="color: var(--accent); margin-right: 10px;"></i>
+                            <span>Örnek Mahallesi, Örnek Caddesi <br>No:123, Örnek İlçe / Şehir</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt" style="color: var(--accent); margin-right: 10px;"></i>
+                            <span>+90 (000) 000 00 00</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope" style="color: var(--accent); margin-right: 10px;"></i>
+                            <span>ornek@mailadresi.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Örnek Dernek. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

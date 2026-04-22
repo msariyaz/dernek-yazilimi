@@ -6,4 +6,5 @@ Bu örnek websitesi, dernek sayfası ve dernek yazılımı çözümleri üzerine
 
 
 💡 Daha gelişmiş özelliklere sahip, profesyonel ve ücretli temalar için aşağıdaki bağlantıyı inceleyebilirsiniz:
-👉 https://derneksoft.com/
+
+👉 Ücretli Demo: https://derneksoft.com/

@@ -4,8 +4,6 @@ Bu proje, dernekler için hazırlanmış ücretsiz bir dernek sitesi örneğidir
 
 Bu yazılım, dernek sayfası ve dernek yazılımı çözümleri üzerine çalışmalar yapan derneksoft.com tarafından geliştirilmiştir. Özellikle küçük ve orta ölçekli dernekler için pratik bir başlangıç sunar.
 
-🔗 Canlı Demo:
-https://derneksoft.com/
 
 💡 Daha gelişmiş özelliklere sahip, profesyonel ve ücretli temalar için aşağıdaki bağlantıyı inceleyebilirsiniz:
 👉 https://derneksoft.com/
